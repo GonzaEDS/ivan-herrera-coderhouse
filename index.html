@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="prestamo.js"></script>
+</head>
+<body>
+<div class="contenedor">
+    <div class="card">
+
+            <H1>Simulador de prestamos</H1>
+
+            <p>Importe a solicitar:</p><input type="number" name="importe" id="importe">
+            <select class="selector bn632-hover bn22" id="sistema">
+                <option value="Fances">FRANCES</option>
+                <option value="Aleman">ALEMAN</option>
+                <option value="Americano">AMERICANO</option>
+            </select>
+
+
+        <a><button class="bn632-hover bn22" name="sistema" onclick="capturar()">Simular</button></a>
+
+    </div>
+    <div>
+        <table class="table" id="tablaMarcha">
+            <th>Cuota Nº</th>
+            <th>Cuota amortizacion</th>
+            <th>Cuota de interes</th>
+            <th>Saldo</th>
+        </table>
+    </div>
+</div>
+
+</body>
+</html>
